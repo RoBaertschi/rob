@@ -1,0 +1,3 @@
+# Defaults that will be copied if "Rob.config" does not exist
+CC  =   "gcc";
+LD  =   "ld";

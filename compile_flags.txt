@@ -1,0 +1,12 @@
+# ml2 ft=yaml
+
+If:
+    PathMatch: .\*.c
+CompileFlags:
+    Add: [-std=c17]
+
+
+If:
+    PathMatch: .\*.h
+CompileFlags:
+    Add: [-std=c17]
