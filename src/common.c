@@ -1,40 +1,39 @@
 #include "common.h"
+#include <stdarg.h>
+#include <stdint.h>
+#include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 
-bool string_empty(struct string *string) {
-        return string->len == 0;
+char *sprintf_alloc(char *format, ...) {
+        va_list args;
+        va_start(args, format);
+        size_t needed = vsnprintf(NULL, 0, format, args);
+        va_end(args);
+        char *buffer = malloc(needed);
+        va_start(args, format);
+        vsprintf(buffer, format, args);
+        va_end(args);
+        return buffer;
 }
 
-struct string string_one_char(char ch) {
-        char* ptr = malloc(2);
-        ptr[0] = ch;
-        ptr[1] = '\0';
-        return (struct string){.len = 1, .ptr = ptr};
-}
+char *error_context_str(result_type type, struct error_context ctx) {
+        switch (type) {
+        case result_ok:
+                return "ok";
+        case result_fopen_failed:
+                return sprintf_alloc("fopen failed with %s for file %s",
+                                     strerror(ctx.cur_errno), ctx.filename);
 
-struct string string_malloc_empty() {
-        char* ptr = malloc(1);
-        ptr[0] = '\0';
-        return (struct string){.len = 0, .ptr = ptr};
-}
-
-// Creates a new var string with a initial capacity of 8 bytes.
-struct var_string var_string_create() {
-        char* ptr = malloc(8);
-
-        if (ptr == NULL) {
-                return (struct var_string){.ptr = NULL, .len = 0, .cap = 0,};
+        case result_alloc_failed:
+                return sprintf_alloc("malloc failed with %d", ctx.cur_errno);
+        case result_lexer_invalid_character:
+                return sprintf_alloc(
+                    "lexer found invalid character: '%c' or '%d'",
+                    ctx.invalid_ch, ctx.invalid_ch);
+        default:
+                return "unkown error";
         }
-
-        memset(ptr, 0, 8);
-        return (struct var_string){
-                .ptr = ptr,
-                .len = 0,
-                .cap = 8,
-        };
 }
 
-bool var_string_valid(struct var_string *string) {
-        return string->ptr == NULL;
-}
+
