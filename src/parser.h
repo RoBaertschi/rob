@@ -4,7 +4,6 @@
 #include "common.h"
 #include "lexer.h"
 
-
 struct parser {
         struct lexer lexer;
 
@@ -18,7 +17,6 @@ result_container(parser, struct parser);
 
 struct rc_parser create_parser(struct string file_name);
 
-
 enum target_type {
         target_type_binary,
         target_type_library,
@@ -27,7 +25,7 @@ enum target_type {
 struct target_statement {
         enum target_type type;
         struct string ident;
-        struct string* files;
+        struct string *files;
 };
 
 enum statement_type {
@@ -49,6 +47,6 @@ struct program {
 result_container(statement, struct statement);
 result_container(target_statement, struct target_statement);
 
-struct rc_statement parse_statement(struct parser* parser);
+struct rc_statement parse_statement(struct parser *parser);
 
 #endif // rob_parser_h

@@ -30,5 +30,6 @@ int main(void) {
                 }
         }
 
+        free_all_strings();
         return EXIT_SUCCESS;
 }

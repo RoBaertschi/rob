@@ -1,10 +1,10 @@
 #ifndef rob_common_h
 #define rob_common_h
 
+#include "token.h"
 #include <stdbool.h>
 #include <stddef.h>
 #include <stdint.h>
-#include "token.h"
 
 #ifndef ASSERT
 
@@ -26,7 +26,6 @@ typedef enum {
         result_parser_unexpected_token,
 } result_type;
 
-
 struct error_context {
         int cur_errno;
         union {
@@ -36,7 +35,10 @@ struct error_context {
                 char invalid_ch;
                 /// invalid token
                 struct token invalid_token;
-                struct { enum token_type found_token; enum token_type expected_token; } unexpected_token;
+                struct {
+                        enum token_type found_token;
+                        enum token_type expected_token;
+                } unexpected_token;
         };
 };
 
@@ -102,7 +104,7 @@ struct result {
 #define TRY_AND_GET(res, var_name, var_type)                                   \
         {                                                                      \
                 struct rc_##var_type tmp_rc = res;                             \
-                if (tmp_rc.result.type != result_ok) {                     \
+                if (tmp_rc.result.type != result_ok) {                         \
                         return tmp_rc.result;                                  \
                 }                                                              \
                 var_name = tmp_rc.ok;                                          \
@@ -112,9 +114,8 @@ char *error_context_str(result_type type, struct error_context ctx);
 
 #define rc_error_str(rc) error_context_str(rc.result.type, rc.result.ctx)
 
-
 char *sprintf_alloc(char *format, ...);
-
+void free_all_strings(void);
 
 result_container(token, struct token);
 result_container(string, struct string);

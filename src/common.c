@@ -1,9 +1,13 @@
 #include "common.h"
+#include "stb_ds.h"
 #include <stdarg.h>
+#include <stddef.h>
 #include <stdint.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+
+static char **allocated_strings = NULL;
 
 char *sprintf_alloc(char *format, ...) {
         va_list args;
@@ -14,7 +18,15 @@ char *sprintf_alloc(char *format, ...) {
         va_start(args, format);
         vsprintf(buffer, format, args);
         va_end(args);
+        arrput(allocated_strings, buffer);
         return buffer;
+}
+
+void free_all_strings(void) {
+        for (ptrdiff_t i = 0; i < arrlen(allocated_strings); i++) {
+                free(allocated_strings[i]);
+        }
+        arrfree(allocated_strings);
 }
 
 char *error_context_str(result_type type, struct error_context ctx) {
@@ -35,5 +47,3 @@ char *error_context_str(result_type type, struct error_context ctx) {
                 return "unkown error";
         }
 }
-
-
