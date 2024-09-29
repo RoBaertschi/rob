@@ -1,0 +1,659 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=gnu99",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-DLUA_COMPAT_5_3",
+      "-DLUA_USE_LINUX",
+      "-c",
+      "-o",
+      "lapi.o",
+      "lapi.c"
+    ],
+    "directory": "/home/robin/dev/c/rob/lua-5.4.7/src",
+    "file": "/home/robin/dev/c/rob/lua-5.4.7/src/lapi.c",
+    "output": "/home/robin/dev/c/rob/lua-5.4.7/src/lapi.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=gnu99",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-DLUA_COMPAT_5_3",
+      "-DLUA_USE_LINUX",
+      "-c",
+      "lcode.c"
+    ],
+    "directory": "/home/robin/dev/c/rob/lua-5.4.7/src",
+    "file": "/home/robin/dev/c/rob/lua-5.4.7/src/lcode.c"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=gnu99",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-DLUA_COMPAT_5_3",
+      "-DLUA_USE_LINUX",
+      "-c",
+      "-o",
+      "lctype.o",
+      "lctype.c"
+    ],
+    "directory": "/home/robin/dev/c/rob/lua-5.4.7/src",
+    "file": "/home/robin/dev/c/rob/lua-5.4.7/src/lctype.c",
+    "output": "/home/robin/dev/c/rob/lua-5.4.7/src/lctype.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=gnu99",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-DLUA_COMPAT_5_3",
+      "-DLUA_USE_LINUX",
+      "-c",
+      "-o",
+      "ldebug.o",
+      "ldebug.c"
+    ],
+    "directory": "/home/robin/dev/c/rob/lua-5.4.7/src",
+    "file": "/home/robin/dev/c/rob/lua-5.4.7/src/ldebug.c",
+    "output": "/home/robin/dev/c/rob/lua-5.4.7/src/ldebug.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=gnu99",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-DLUA_COMPAT_5_3",
+      "-DLUA_USE_LINUX",
+      "-c",
+      "-o",
+      "ldo.o",
+      "ldo.c"
+    ],
+    "directory": "/home/robin/dev/c/rob/lua-5.4.7/src",
+    "file": "/home/robin/dev/c/rob/lua-5.4.7/src/ldo.c",
+    "output": "/home/robin/dev/c/rob/lua-5.4.7/src/ldo.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=gnu99",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-DLUA_COMPAT_5_3",
+      "-DLUA_USE_LINUX",
+      "-c",
+      "-o",
+      "ldump.o",
+      "ldump.c"
+    ],
+    "directory": "/home/robin/dev/c/rob/lua-5.4.7/src",
+    "file": "/home/robin/dev/c/rob/lua-5.4.7/src/ldump.c",
+    "output": "/home/robin/dev/c/rob/lua-5.4.7/src/ldump.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=gnu99",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-DLUA_COMPAT_5_3",
+      "-DLUA_USE_LINUX",
+      "-c",
+      "-o",
+      "lfunc.o",
+      "lfunc.c"
+    ],
+    "directory": "/home/robin/dev/c/rob/lua-5.4.7/src",
+    "file": "/home/robin/dev/c/rob/lua-5.4.7/src/lfunc.c",
+    "output": "/home/robin/dev/c/rob/lua-5.4.7/src/lfunc.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=gnu99",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-DLUA_COMPAT_5_3",
+      "-DLUA_USE_LINUX",
+      "-c",
+      "-o",
+      "lgc.o",
+      "lgc.c"
+    ],
+    "directory": "/home/robin/dev/c/rob/lua-5.4.7/src",
+    "file": "/home/robin/dev/c/rob/lua-5.4.7/src/lgc.c",
+    "output": "/home/robin/dev/c/rob/lua-5.4.7/src/lgc.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=gnu99",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-DLUA_COMPAT_5_3",
+      "-DLUA_USE_LINUX",
+      "-c",
+      "llex.c"
+    ],
+    "directory": "/home/robin/dev/c/rob/lua-5.4.7/src",
+    "file": "/home/robin/dev/c/rob/lua-5.4.7/src/llex.c"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=gnu99",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-DLUA_COMPAT_5_3",
+      "-DLUA_USE_LINUX",
+      "-c",
+      "-o",
+      "lmem.o",
+      "lmem.c"
+    ],
+    "directory": "/home/robin/dev/c/rob/lua-5.4.7/src",
+    "file": "/home/robin/dev/c/rob/lua-5.4.7/src/lmem.c",
+    "output": "/home/robin/dev/c/rob/lua-5.4.7/src/lmem.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=gnu99",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-DLUA_COMPAT_5_3",
+      "-DLUA_USE_LINUX",
+      "-c",
+      "-o",
+      "lobject.o",
+      "lobject.c"
+    ],
+    "directory": "/home/robin/dev/c/rob/lua-5.4.7/src",
+    "file": "/home/robin/dev/c/rob/lua-5.4.7/src/lobject.c",
+    "output": "/home/robin/dev/c/rob/lua-5.4.7/src/lobject.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=gnu99",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-DLUA_COMPAT_5_3",
+      "-DLUA_USE_LINUX",
+      "-c",
+      "-o",
+      "lopcodes.o",
+      "lopcodes.c"
+    ],
+    "directory": "/home/robin/dev/c/rob/lua-5.4.7/src",
+    "file": "/home/robin/dev/c/rob/lua-5.4.7/src/lopcodes.c",
+    "output": "/home/robin/dev/c/rob/lua-5.4.7/src/lopcodes.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=gnu99",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-DLUA_COMPAT_5_3",
+      "-DLUA_USE_LINUX",
+      "-c",
+      "lparser.c"
+    ],
+    "directory": "/home/robin/dev/c/rob/lua-5.4.7/src",
+    "file": "/home/robin/dev/c/rob/lua-5.4.7/src/lparser.c"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=gnu99",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-DLUA_COMPAT_5_3",
+      "-DLUA_USE_LINUX",
+      "-c",
+      "-o",
+      "lstate.o",
+      "lstate.c"
+    ],
+    "directory": "/home/robin/dev/c/rob/lua-5.4.7/src",
+    "file": "/home/robin/dev/c/rob/lua-5.4.7/src/lstate.c",
+    "output": "/home/robin/dev/c/rob/lua-5.4.7/src/lstate.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=gnu99",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-DLUA_COMPAT_5_3",
+      "-DLUA_USE_LINUX",
+      "-c",
+      "-o",
+      "lstring.o",
+      "lstring.c"
+    ],
+    "directory": "/home/robin/dev/c/rob/lua-5.4.7/src",
+    "file": "/home/robin/dev/c/rob/lua-5.4.7/src/lstring.c",
+    "output": "/home/robin/dev/c/rob/lua-5.4.7/src/lstring.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=gnu99",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-DLUA_COMPAT_5_3",
+      "-DLUA_USE_LINUX",
+      "-c",
+      "-o",
+      "ltable.o",
+      "ltable.c"
+    ],
+    "directory": "/home/robin/dev/c/rob/lua-5.4.7/src",
+    "file": "/home/robin/dev/c/rob/lua-5.4.7/src/ltable.c",
+    "output": "/home/robin/dev/c/rob/lua-5.4.7/src/ltable.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=gnu99",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-DLUA_COMPAT_5_3",
+      "-DLUA_USE_LINUX",
+      "-c",
+      "-o",
+      "ltm.o",
+      "ltm.c"
+    ],
+    "directory": "/home/robin/dev/c/rob/lua-5.4.7/src",
+    "file": "/home/robin/dev/c/rob/lua-5.4.7/src/ltm.c",
+    "output": "/home/robin/dev/c/rob/lua-5.4.7/src/ltm.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=gnu99",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-DLUA_COMPAT_5_3",
+      "-DLUA_USE_LINUX",
+      "-c",
+      "-o",
+      "lundump.o",
+      "lundump.c"
+    ],
+    "directory": "/home/robin/dev/c/rob/lua-5.4.7/src",
+    "file": "/home/robin/dev/c/rob/lua-5.4.7/src/lundump.c",
+    "output": "/home/robin/dev/c/rob/lua-5.4.7/src/lundump.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=gnu99",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-DLUA_COMPAT_5_3",
+      "-DLUA_USE_LINUX",
+      "-c",
+      "-o",
+      "lvm.o",
+      "lvm.c"
+    ],
+    "directory": "/home/robin/dev/c/rob/lua-5.4.7/src",
+    "file": "/home/robin/dev/c/rob/lua-5.4.7/src/lvm.c",
+    "output": "/home/robin/dev/c/rob/lua-5.4.7/src/lvm.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=gnu99",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-DLUA_COMPAT_5_3",
+      "-DLUA_USE_LINUX",
+      "-c",
+      "-o",
+      "lzio.o",
+      "lzio.c"
+    ],
+    "directory": "/home/robin/dev/c/rob/lua-5.4.7/src",
+    "file": "/home/robin/dev/c/rob/lua-5.4.7/src/lzio.c",
+    "output": "/home/robin/dev/c/rob/lua-5.4.7/src/lzio.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=gnu99",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-DLUA_COMPAT_5_3",
+      "-DLUA_USE_LINUX",
+      "-c",
+      "-o",
+      "lauxlib.o",
+      "lauxlib.c"
+    ],
+    "directory": "/home/robin/dev/c/rob/lua-5.4.7/src",
+    "file": "/home/robin/dev/c/rob/lua-5.4.7/src/lauxlib.c",
+    "output": "/home/robin/dev/c/rob/lua-5.4.7/src/lauxlib.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=gnu99",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-DLUA_COMPAT_5_3",
+      "-DLUA_USE_LINUX",
+      "-c",
+      "-o",
+      "lbaselib.o",
+      "lbaselib.c"
+    ],
+    "directory": "/home/robin/dev/c/rob/lua-5.4.7/src",
+    "file": "/home/robin/dev/c/rob/lua-5.4.7/src/lbaselib.c",
+    "output": "/home/robin/dev/c/rob/lua-5.4.7/src/lbaselib.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=gnu99",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-DLUA_COMPAT_5_3",
+      "-DLUA_USE_LINUX",
+      "-c",
+      "-o",
+      "lcorolib.o",
+      "lcorolib.c"
+    ],
+    "directory": "/home/robin/dev/c/rob/lua-5.4.7/src",
+    "file": "/home/robin/dev/c/rob/lua-5.4.7/src/lcorolib.c",
+    "output": "/home/robin/dev/c/rob/lua-5.4.7/src/lcorolib.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=gnu99",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-DLUA_COMPAT_5_3",
+      "-DLUA_USE_LINUX",
+      "-c",
+      "-o",
+      "ldblib.o",
+      "ldblib.c"
+    ],
+    "directory": "/home/robin/dev/c/rob/lua-5.4.7/src",
+    "file": "/home/robin/dev/c/rob/lua-5.4.7/src/ldblib.c",
+    "output": "/home/robin/dev/c/rob/lua-5.4.7/src/ldblib.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=gnu99",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-DLUA_COMPAT_5_3",
+      "-DLUA_USE_LINUX",
+      "-c",
+      "-o",
+      "liolib.o",
+      "liolib.c"
+    ],
+    "directory": "/home/robin/dev/c/rob/lua-5.4.7/src",
+    "file": "/home/robin/dev/c/rob/lua-5.4.7/src/liolib.c",
+    "output": "/home/robin/dev/c/rob/lua-5.4.7/src/liolib.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=gnu99",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-DLUA_COMPAT_5_3",
+      "-DLUA_USE_LINUX",
+      "-c",
+      "-o",
+      "lmathlib.o",
+      "lmathlib.c"
+    ],
+    "directory": "/home/robin/dev/c/rob/lua-5.4.7/src",
+    "file": "/home/robin/dev/c/rob/lua-5.4.7/src/lmathlib.c",
+    "output": "/home/robin/dev/c/rob/lua-5.4.7/src/lmathlib.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=gnu99",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-DLUA_COMPAT_5_3",
+      "-DLUA_USE_LINUX",
+      "-c",
+      "-o",
+      "loadlib.o",
+      "loadlib.c"
+    ],
+    "directory": "/home/robin/dev/c/rob/lua-5.4.7/src",
+    "file": "/home/robin/dev/c/rob/lua-5.4.7/src/loadlib.c",
+    "output": "/home/robin/dev/c/rob/lua-5.4.7/src/loadlib.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=gnu99",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-DLUA_COMPAT_5_3",
+      "-DLUA_USE_LINUX",
+      "-c",
+      "-o",
+      "loslib.o",
+      "loslib.c"
+    ],
+    "directory": "/home/robin/dev/c/rob/lua-5.4.7/src",
+    "file": "/home/robin/dev/c/rob/lua-5.4.7/src/loslib.c",
+    "output": "/home/robin/dev/c/rob/lua-5.4.7/src/loslib.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=gnu99",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-DLUA_COMPAT_5_3",
+      "-DLUA_USE_LINUX",
+      "-c",
+      "-o",
+      "lstrlib.o",
+      "lstrlib.c"
+    ],
+    "directory": "/home/robin/dev/c/rob/lua-5.4.7/src",
+    "file": "/home/robin/dev/c/rob/lua-5.4.7/src/lstrlib.c",
+    "output": "/home/robin/dev/c/rob/lua-5.4.7/src/lstrlib.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=gnu99",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-DLUA_COMPAT_5_3",
+      "-DLUA_USE_LINUX",
+      "-c",
+      "-o",
+      "ltablib.o",
+      "ltablib.c"
+    ],
+    "directory": "/home/robin/dev/c/rob/lua-5.4.7/src",
+    "file": "/home/robin/dev/c/rob/lua-5.4.7/src/ltablib.c",
+    "output": "/home/robin/dev/c/rob/lua-5.4.7/src/ltablib.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=gnu99",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-DLUA_COMPAT_5_3",
+      "-DLUA_USE_LINUX",
+      "-c",
+      "-o",
+      "lutf8lib.o",
+      "lutf8lib.c"
+    ],
+    "directory": "/home/robin/dev/c/rob/lua-5.4.7/src",
+    "file": "/home/robin/dev/c/rob/lua-5.4.7/src/lutf8lib.c",
+    "output": "/home/robin/dev/c/rob/lua-5.4.7/src/lutf8lib.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=gnu99",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-DLUA_COMPAT_5_3",
+      "-DLUA_USE_LINUX",
+      "-c",
+      "-o",
+      "linit.o",
+      "linit.c"
+    ],
+    "directory": "/home/robin/dev/c/rob/lua-5.4.7/src",
+    "file": "/home/robin/dev/c/rob/lua-5.4.7/src/linit.c",
+    "output": "/home/robin/dev/c/rob/lua-5.4.7/src/linit.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=gnu99",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-DLUA_COMPAT_5_3",
+      "-DLUA_USE_LINUX",
+      "-c",
+      "-o",
+      "lua.o",
+      "lua.c"
+    ],
+    "directory": "/home/robin/dev/c/rob/lua-5.4.7/src",
+    "file": "/home/robin/dev/c/rob/lua-5.4.7/src/lua.c",
+    "output": "/home/robin/dev/c/rob/lua-5.4.7/src/lua.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=gnu99",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-DLUA_COMPAT_5_3",
+      "-DLUA_USE_LINUX",
+      "-c",
+      "-o",
+      "luac.o",
+      "luac.c"
+    ],
+    "directory": "/home/robin/dev/c/rob/lua-5.4.7/src",
+    "file": "/home/robin/dev/c/rob/lua-5.4.7/src/luac.c",
+    "output": "/home/robin/dev/c/rob/lua-5.4.7/src/luac.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=gnu99",
+      "-c",
+      "-I./libs/include/",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-g",
+      "-o",
+      "build/src/main.o",
+      "src/main.c"
+    ],
+    "directory": "/home/robin/dev/c/rob",
+    "file": "/home/robin/dev/c/rob/src/main.c",
+    "output": "/home/robin/dev/c/rob/build/src/main.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=gnu99",
+      "-c",
+      "-I./libs/include/",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-g",
+      "-o",
+      "build/src/luadsl.o",
+      "src/luadsl.c"
+    ],
+    "directory": "/home/robin/dev/c/rob",
+    "file": "/home/robin/dev/c/rob/src/luadsl.c",
+    "output": "/home/robin/dev/c/rob/build/src/luadsl.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=gnu99",
+      "-c",
+      "-I./libs/include/",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-g",
+      "-o",
+      "build/src/utils.o",
+      "src/utils.c"
+    ],
+    "directory": "/home/robin/dev/c/rob",
+    "file": "/home/robin/dev/c/rob/src/utils.c",
+    "output": "/home/robin/dev/c/rob/build/src/utils.o"
+  }
+]
