@@ -1,0 +1,18 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-c",
+      "-Wall",
+      "-Wextra",
+      "-std=gnu99",
+      "-DROB_IMPL",
+      "-o",
+      "rob",
+      "rob.c"
+    ],
+    "directory": "/home/robin/dev/c/rob",
+    "file": "/home/robin/dev/c/rob/rob.c",
+    "output": "/home/robin/dev/c/rob/rob"
+  }
+]
